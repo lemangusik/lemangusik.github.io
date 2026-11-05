@@ -1,0 +1,17 @@
+diff --git a/src/style.css b/src/style.css
+index 6197dd2..6b25545 100644
+--- a/src/style.css
++++ b/src/style.css
+@@ -44,9 +44,9 @@ html.lenis{scroll-behavior:auto}
+ .ink-run>.ink-seed{background:currentColor}
+ @media(prefers-reduced-motion:no-preference){
+  .ink-pending>.ink-source,.ink-active>.ink-source{opacity:0}
+- .ink-active .ink-run{--delay:calc(var(--text-wait,0s) + var(--stagger));animation:ink-edge var(--duration,1s) linear var(--delay) backwards}
+- .ink-active .ink-type{animation:ink-focus var(--duration,1s) cubic-bezier(.25,.7,.25,1) var(--delay) both}
+- .ink-active .ink-seed{animation:ink-seed var(--duration,1s) ease-in-out var(--delay) both}
++ .ink-active .ink-run{--delay:calc(var(--text-wait,0s) + var(--stagger));animation:ink-edge var(--duration,.8s) linear var(--delay) backwards}
++ .ink-active .ink-type{animation:ink-focus var(--duration,.8s) cubic-bezier(.25,.7,.25,1) var(--delay) both}
++ .ink-active .ink-seed{animation:ink-seed var(--duration,.8s) ease-in-out var(--delay) both}
+  h2,h3,.cover b{--duration:1.35s}
+ }
+ @media(prefers-reduced-motion:reduce){.ink-paint{display:none}}
